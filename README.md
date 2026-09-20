@@ -11,8 +11,6 @@ Organization-wide files for [Timbermods](https://github.com/timbermods).
 | `profile/README.md` | The organization profile: banner, mod cards, install steps |
 | `profile/banner.svg` | The header image |
 | `profile/cards/*.svg` | One 16:10 card image per mod, in the same style as the [catalog](https://timbermods.github.io/) cards |
-| `assets/avatar.png` | The organization picture (upload it under Settings > Profile; GitHub has no API for it) |
-| `assets/logo.svg` | The tree-ring mark on its dark tile, the same as the catalog favicon |
 
 ## Adding a mod
 
