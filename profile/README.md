@@ -51,12 +51,12 @@ Timbermods makes mods for [Timberborn](https://timberborn.com/): co-op stability
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/timbermods/LateGamePerformance#readme"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/late-game-performance.svg" alt="Frame time with and without the mod" width="100%"></a>
-<h3><a href="https://github.com/timbermods/LateGamePerformance#readme">Late Game Performance</a></h3>
+<a href="https://timbermods.github.io/LateGamePerformance/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/late-game-performance.svg" alt="Frame time with and without the mod" width="100%"></a>
+<h3><a href="https://timbermods.github.io/LateGamePerformance/">Late Game Performance</a></h3>
 <p><b>Less repeated CPU work in huge colonies.</b><br>Caches hauling job lists between hauler decisions and rebuilds route maps on worker threads after road changes, so big colonies spend less main-thread time deciding where goods go.</p>
-<p><img src="https://img.shields.io/badge/Performance-9a8be0?style=flat-square" alt="Category: Performance"> <img src="https://img.shields.io/github/v/release/timbermods/LateGamePerformance?label=latest&labelColor=172620&color=9a8be0&style=flat-square&include_prereleases" alt="Latest release"> <img src="https://img.shields.io/badge/Preview-f2c987?style=flat-square" alt="Preview release"></p>
+<p><img src="https://img.shields.io/badge/Performance-9a8be0?style=flat-square" alt="Category: Performance"> <img src="https://img.shields.io/github/v/release/timbermods/LateGamePerformance?label=latest&labelColor=172620&color=9a8be0&style=flat-square" alt="Latest release"></p>
 <p><sub><b>Requires</b> Harmony 2.4.1+, Mod Settings</sub></p>
-<p><a href="https://github.com/timbermods/LateGamePerformance#readme">Readme</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/LateGamePerformance">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/LateGamePerformance/releases/latest"><b>Download</b></a></p>
+<p><a href="https://timbermods.github.io/LateGamePerformance/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/LateGamePerformance">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/LateGamePerformance/releases/latest"><b>Download</b></a></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://timbermods.github.io/timberborn-tipsy-tail/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/the-tipsy-tail.svg" alt="The Tipsy Tail pool bar" width="100%"></a>
