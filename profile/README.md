@@ -8,7 +8,7 @@
   <a href="https://github.com/orgs/timbermods/repositories">All repositories</a>
 </p>
 
-Timbermods makes mods for [Timberborn](https://timberborn.com/): co-op stability, two-colony trading, big-colony performance, smarter storage and housing, and a pool bar for tired beavers. Everything here is built for Timberborn **1.1.2.4**, and the [catalog](https://timbermods.github.io/) has a one-click download of each mod's newest release.
+Timbermods makes mods for [Timberborn](https://timberborn.com/): co-op stability, two-colony trading, big-colony performance, smarter storage and housing, beavers that eat before the shift, and a pool bar for tired beavers. Everything here is built for Timberborn **1.1.2.4**, and the [catalog](https://timbermods.github.io/) has a one-click download of each mod's newest release.
 
 ## The mods
 
@@ -75,6 +75,14 @@ Timbermods makes mods for [Timberborn](https://timberborn.com/): co-op stability
 <p><img src="https://img.shields.io/badge/Buildings-4aa3a3?style=flat-square" alt="Category: Buildings"> <img src="https://img.shields.io/github/v/release/timbermods/timberborn-tipsy-tail?label=latest&labelColor=172620&color=4aa3a3&style=flat-square&include_prereleases" alt="Latest release"> <img src="https://img.shields.io/badge/Preview-f2c987?style=flat-square" alt="Preview release"></p>
 <p><sub><b>Requires</b> Nothing extra</sub></p>
 <p><a href="https://timbermods.github.io/timberborn-tipsy-tail/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/timberborn-tipsy-tail">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/timberborn-tipsy-tail/releases/latest"><b>Download</b></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://timbermods.github.io/HungryPathing/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/hungry-pathing.svg" alt="A beaver at a construction site with a short walk to a nearby warehouse and a long faded walk to the district center" width="100%"></a>
+<h3><a href="https://timbermods.github.io/HungryPathing/">Hungry Pathing</a></h3>
+<p><b>Beavers that eat before the shift, not after the penalty.</b><br>Working beavers top off before a shift they cannot finish, leave far jobs early enough to reach food before the hunger penalty, and eat at the closest stocked storage instead of crossing the map for a fancier meal.</p>
+<p><img src="https://img.shields.io/badge/Beaver%20behavior-e8735c?style=flat-square" alt="Category: Beaver behavior"> <img src="https://img.shields.io/github/v/release/timbermods/HungryPathing?label=latest&labelColor=172620&color=e8735c&style=flat-square&include_prereleases" alt="Latest release"> <img src="https://img.shields.io/badge/Alpha-f2c987?style=flat-square" alt="Alpha release"></p>
+<p><sub><b>Requires</b> Harmony 2.4.1+</sub></p>
+<p><a href="https://timbermods.github.io/HungryPathing/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/HungryPathing">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/HungryPathing/releases"><b>Download</b></a></p>
 </td>
 </tr>
 </table>
