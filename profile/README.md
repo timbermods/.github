@@ -8,7 +8,7 @@
   <a href="https://github.com/orgs/timbermods/repositories">All repositories</a>
 </p>
 
-Timbermods makes mods for [Timberborn](https://timberborn.com/): co-op stability, big-colony performance, smarter storage and housing, and a pool bar for tired beavers. Everything here is built for Timberborn **1.1.2.4**, and the [catalog](https://timbermods.github.io/) has a one-click download of each mod's newest release.
+Timbermods makes mods for [Timberborn](https://timberborn.com/): co-op stability, two-colony trading, big-colony performance, smarter storage and housing, and a pool bar for tired beavers. Everything here is built for Timberborn **1.1.2.4**, and the [catalog](https://timbermods.github.io/) has a one-click download of each mod's newest release.
 
 ## The mods
 
@@ -23,6 +23,16 @@ Timbermods makes mods for [Timberborn](https://timberborn.com/): co-op stability
 <p><a href="https://timbermods.github.io/BeaverBuddies-Stability-Fork/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/BeaverBuddies-Stability-Fork">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/BeaverBuddies-Stability-Fork/releases/latest"><b>Download</b></a></p>
 </td>
 <td width="50%" valign="top">
+<a href="https://timbermods.github.io/BeaverBuddies-MultiColony/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/beaverbuddies-multicolony.svg" alt="Two colonies trading through a post between them" width="100%"></a>
+<h3><a href="https://timbermods.github.io/BeaverBuddies-MultiColony/">BeaverBuddies MultiColony</a></h3>
+<p><b>Two players, one map, a colony each.</b><br>Built on the BeaverBuddies Stability Fork: each player runs their own colony — land, beavers, stock and science — on a shared map, and the colonies meet only at trading posts to barter goods.</p>
+<p><img src="https://img.shields.io/badge/Multiplayer-c9628a?style=flat-square" alt="Category: Multiplayer"> <img src="https://img.shields.io/github/v/release/timbermods/BeaverBuddies-MultiColony?label=latest&labelColor=172620&color=c9628a&style=flat-square&include_prereleases" alt="Latest release"> <img src="https://img.shields.io/badge/Alpha-f2c987?style=flat-square" alt="Alpha release"></p>
+<p><sub><b>Requires</b> Harmony, Mod Settings</sub></p>
+<p><a href="https://timbermods.github.io/BeaverBuddies-MultiColony/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/BeaverBuddies-MultiColony">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/BeaverBuddies-MultiColony/releases"><b>Download</b></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <a href="https://timbermods.github.io/MixedStorage/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/mixedstorage.svg" alt="The MixedStorage allocation panel over a warehouse" width="100%"></a>
 <h3><a href="https://timbermods.github.io/MixedStorage/">MixedStorage</a></h3>
 <p><b>Several goods in one warehouse.</b><br>Divide a warehouse or pile by percentage, say 50% carrots and 50% gears, with per-good limits and a compact panel that shows exactly what is stored.</p>
@@ -30,8 +40,6 @@ Timbermods makes mods for [Timberborn](https://timberborn.com/): co-op stability
 <p><sub><b>Requires</b> Harmony 2.4.1+</sub></p>
 <p><a href="https://timbermods.github.io/MixedStorage/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/MixedStorage">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/MixedStorage/releases/latest"><b>Download</b></a></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://timbermods.github.io/PersistentWorkAreas/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/persistent-work-areas.svg" alt="A pinned working-area outline and the Clear pinned areas button" width="100%"></a>
 <h3><a href="https://timbermods.github.io/PersistentWorkAreas/">Persistent Work Areas</a></h3>
@@ -40,6 +48,8 @@ Timbermods makes mods for [Timberborn](https://timberborn.com/): co-op stability
 <p><sub><b>Requires</b> Nothing extra</sub></p>
 <p><a href="https://timbermods.github.io/PersistentWorkAreas/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/PersistentWorkAreas">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/PersistentWorkAreas/releases/latest"><b>Download</b></a></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://timbermods.github.io/OptimizedLocalHousing/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/optimized-local-housing.svg" alt="Homes joined to workplaces by shortened commute routes" width="100%"></a>
 <h3><a href="https://timbermods.github.io/OptimizedLocalHousing/">Optimized Local Housing</a></h3>
@@ -48,8 +58,6 @@ Timbermods makes mods for [Timberborn](https://timberborn.com/): co-op stability
 <p><sub><b>Requires</b> Nothing extra</sub></p>
 <p><a href="https://timbermods.github.io/OptimizedLocalHousing/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/OptimizedLocalHousing">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/OptimizedLocalHousing/releases/latest"><b>Download</b></a></p>
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 <a href="https://timbermods.github.io/LateGamePerformance/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/late-game-performance.svg" alt="Frame time with and without the mod" width="100%"></a>
 <h3><a href="https://timbermods.github.io/LateGamePerformance/">Late Game Performance</a></h3>
@@ -58,6 +66,8 @@ Timbermods makes mods for [Timberborn](https://timberborn.com/): co-op stability
 <p><sub><b>Requires</b> Harmony 2.4.1+, Mod Settings</sub></p>
 <p><a href="https://timbermods.github.io/LateGamePerformance/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/LateGamePerformance">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/LateGamePerformance/releases/latest"><b>Download</b></a></p>
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 <a href="https://timbermods.github.io/timberborn-tipsy-tail/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/the-tipsy-tail.svg" alt="The Tipsy Tail pool bar" width="100%"></a>
 <h3><a href="https://timbermods.github.io/timberborn-tipsy-tail/">The Tipsy Tail</a></h3>
