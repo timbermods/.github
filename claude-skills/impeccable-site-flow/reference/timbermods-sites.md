@@ -25,4 +25,7 @@ detail: design rules, test, preview, publish, and the release-update checklist.
   The Tipsy Tail #1a6773.
 - **Card art:** when a site's look changes, recapture its hub card with `python scripts/card-art.py <card-id>` in the
   hub repo.
+- **Org profile** (`timbermods/.github`, `profile/`): its README repeats each hub card's text, accent, category and
+  group. Its banner and card images are rendered from the live hub by `python profile/make_images.py`; re-run that after
+  hub card art changes.
 - **A new site's look must differ from every look above.**
