@@ -9,15 +9,17 @@ Organization-wide files for [Timbermods](https://github.com/timbermods).
 | Path | Purpose |
 | --- | --- |
 | `profile/README.md` | The organization profile: banner, mod cards, install steps |
-| `profile/banner.svg` | The header image |
-| `profile/cards/*.svg` | One 16:10 card image per mod, in the same style as the [catalog](https://timbermods.github.io/) cards |
+| `profile/banner.png` | The header image: the catalog's felt and binder, with the mods' cards fanned out |
+| `profile/cards/*.png` | One 640 x 400 card image per mod: its [catalog](https://timbermods.github.io/) card art in a sleeve, framed in the mod's colour |
+| `profile/make_images.py` | Renders the banner and the cards from the live catalog |
 | `claude-skills/impeccable-site-flow/` | The Claude Code skill that designed every Timbermods website, and keeps each one current |
 
 ## Adding a mod
 
-1. Add its card image to `profile/cards/`, 640 x 400, with the accent color's 4 px bar along the bottom.
-2. Copy one `<td>` block in `profile/README.md`, then change the image, links, text and accent color. The version badge follows the repository's latest release by itself, so no version is written by hand.
-3. If the repository has only pre-releases, keep `&include_prereleases` in its version badge and the **Preview** badge. Once it has a stable release, remove both.
+1. Add the mod to the [catalog](https://github.com/timbermods/timbermods.github.io) first; its card art and accent colour come from there.
+2. Add it to `CARDS` in `profile/make_images.py` (card id, accent, category) and run `python profile/make_images.py` (Python with playwright, and Microsoft Edge installed). Re-run it whenever a card's art changes in the catalog.
+3. Copy one `<td>` block in `profile/README.md` into the right group (Play together, Big colonies, Build and plan, as in the catalog), then change the image, links, text and accent colour. Keep the text the same as the catalog card's. The version badge follows the repository's latest release by itself, so no version is written by hand.
+4. If the repository has only pre-releases, keep `&include_prereleases` in its version badge and the **Preview** badge. Once it has a stable release, remove both.
 
 Image links in the profile are absolute `raw.githubusercontent.com` URLs, so they load wherever the profile is rendered.
 
