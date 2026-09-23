@@ -64,6 +64,9 @@ Read it first, and follow it wherever it's more specific than this skill.
 
 Gotchas are in `reference/gotchas.md`; read it before building.
 
+This skill is backed up in `timbermods/.github` under `claude-skills/impeccable-site-flow/`. When you improve it, update both
+copies, through a PR to that repo.
+
 ## Update mode
 
 For "update the <mod> website for the latest release, consistent with the design".
