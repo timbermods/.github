@@ -27,7 +27,6 @@ def data_uri(name, mime):
 
 FONT = data_uri("anybody-latin-700-normal.woff2", "font/woff2")
 BOARD = data_uri("binder.webp", "image/webp")
-SHEEN = data_uri("sheen.webp", "image/webp")
 OUT = os.path.dirname(os.path.abspath(__file__))
 # card id, accent, category pill (the catalog's order and wording)
 CARDS = [
@@ -49,8 +48,6 @@ body {{ background: transparent; }}
 .page {{ background: #1d1f23 url("{BOARD}"); }}
 .sleeve {{ position: relative; padding: 7px; border-radius: 14px; background: rgba(255,255,255,.07);
   border: 1px solid rgba(255,255,255,.16); border-top-color: rgba(255,255,255,.32); box-shadow: 0 8px 18px -8px rgba(0,0,0,.7); }}
-.sleeve::after {{ content: ""; position: absolute; inset: 0; border-radius: inherit;
-  background: url("{SHEEN}") 95% 0 / 220% 220% no-repeat; opacity: .4; }}
 .card {{ position: relative; border: 6px solid var(--c); border-radius: 9px; overflow: hidden; background: var(--c); }}
 .card img {{ display: block; width: 100%; height: 100%; object-fit: cover; }}
 .pill {{ position: absolute; left: 14px; top: 14px; padding: 6px 13px 7px; border-radius: 999px; background: var(--c); color: #fff;
