@@ -64,7 +64,7 @@ For colonies that have grown large enough to hitch, walk too far or work hungry.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/HungryPathing/"><img src="https://raw.githubusercontent.com/timbermods/.github/b1148751cbbecf82b18e23c1e329e83bde0f1ed7/profile/cards/hungry-pathing.png" alt="A shift board: a beaver&#x27;s hunger over a working day, with and without the mod" width="100%"></a>
+<a href="https://timbermods.github.io/HungryPathing/"><img src="https://raw.githubusercontent.com/timbermods/.github/236c106237ff6c9043a58cb05b6c1cc55408b4cb/profile/cards/hungry-pathing.png" alt="A shift board: a beaver&#x27;s hunger over a working day, with and without the mod" width="100%"></a>
 <h3><a href="https://timbermods.github.io/HungryPathing/">Hungry Pathing</a></h3>
 <p><b>Fed before the whistle, not after.</b><br>During working hours, beavers eat and drink before the hunger penalty, at the closest stocked storage. Off duty nothing changes, and they don't eat more.</p>
 <p><img src="https://img.shields.io/badge/Beaver%20needs-1d4a86?style=flat-square" alt="Category: Beaver needs"> <img src="https://img.shields.io/github/v/release/timbermods/HungryPathing?label=latest&labelColor=1f2124&color=1d4a86&style=flat-square" alt="Latest release"> <img src="https://img.shields.io/badge/Beta-b07a12?style=flat-square" alt="Beta"></p>
@@ -91,7 +91,7 @@ Storage, planting and a new building.
 <p><a href="https://timbermods.github.io/MixedStorage/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/MixedStorage">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/MixedStorage/releases/latest"><b>Download</b></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/PersistentWorkAreas/"><img src="https://raw.githubusercontent.com/timbermods/.github/b1148751cbbecf82b18e23c1e329e83bde0f1ed7/profile/cards/persistent-work-areas.png" alt="A plan of a farmhouse and a forester with a pinned working-area outline" width="100%"></a>
+<a href="https://timbermods.github.io/PersistentWorkAreas/"><img src="https://raw.githubusercontent.com/timbermods/.github/236c106237ff6c9043a58cb05b6c1cc55408b4cb/profile/cards/persistent-work-areas.png" alt="A plan of a farmhouse and a forester with a pinned working-area outline" width="100%"></a>
 <h3><a href="https://timbermods.github.io/PersistentWorkAreas/">Persistent Work Areas</a></h3>
 <p><b>Keep working-area outlines on screen.</b><br>Select a farm, forester or gatherer and tick <b>Keep working area visible</b>: its outline stays after you deselect it. Pick a crop or tree in the planting tools, and the buildings that plant it are outlined too.</p>
 <p><img src="https://img.shields.io/badge/Planning-8a6512?style=flat-square" alt="Category: Planning"> <img src="https://img.shields.io/github/v/release/timbermods/PersistentWorkAreas?label=latest&labelColor=1f2124&color=8a6512&style=flat-square" alt="Latest release"></p>
