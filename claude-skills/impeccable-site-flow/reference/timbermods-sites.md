@@ -7,7 +7,7 @@ detail: design rules, test, preview, publish, and the release-update checklist.
 |---|---|---|---|---|
 | BeaverBuddies-MultiColony | docs/ | River Station Signage (enamel plates on timber posts; amber = colony 1, teal = colony 2) | none; CLAUDE.md gives `node --check` and a link check | Pages main:/docs |
 | BeaverBuddies-Stability-Fork | docs/ | Blued steel and pine; hero is one shared colony with two players' cursors and an In sync panel (dark only) | none; CLAUDE.md gives grep checks | Pages main:/docs |
-| MixedStorage | site/ | Walnut apothecary drawer cabinet | `node tests/test-site.mjs` | merge, then `.\deploy-site.ps1` → gh-pages |
+| MixedStorage | docs/ | Walnut apothecary drawer cabinet | `node tests/test-site.mjs` | Pages main:/docs |
 | LateGamePerformance | docs/ | Pit Crew (pit board, crew stations, timing tower) | none (no CI; mod tests run locally) | Pages main:/docs |
 | OptimizedLocalHousing | docs/ | Banquet-hall seating plan | none (mod CI only) | Pages main:/docs |
 | HungryPathing | docs/ (design records in docs/) | Enamel yard signs / works canteen | `node tests/test-site.mjs` | Pages main:/docs |
@@ -16,6 +16,12 @@ detail: design rules, test, preview, publish, and the release-update checklist.
 | timbermods.github.io (hub) | repo root | Lodge wall: walnut boards on birch (day) / forest floor (night); each mod a paper or moss panel in its own colour and art | `node scripts/test-site.mjs` | Pages main:/ (release data refreshed hourly by a bot) |
 
 ## Shared across the sites
+
+- **Latest releases update themselves** (all 8 mod repos): `.github/workflows/latest-release.yml` calls the shared
+  workflow in `timbermods/.github` (`scripts/latest_release.py`). Only on a release GitHub marks Latest: it adds the
+  release-notes footer, sets the site's `data-release="version|tag|asset-name"` fallbacks and README lines marked
+  `<!-- latest -->`, runs the site checks and commits to main. Pre-releases change nothing (Kyler builds fast with
+  many pre-releases). Wording stays manual. Dry run: Actions → Latest release → Run workflow.
 
 - **`release.js`:** byte-identical on the Stability Fork, MixedStorage, Late Game Performance, Optimized Local Housing,
   Hungry Pathing and The Tipsy Tail. Replace it, never edit it. MultiColony has its own variant (it fills versions from
