@@ -19,7 +19,7 @@ Co-op through BeaverBuddies. Install one BeaverBuddies at a time: the Stability 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/BeaverBuddies-Stability-Fork/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/beaverbuddies-stability-fork.png?v=2" alt="A log round between the two handles of a crosscut saw" width="100%"></a>
+<a href="https://timbermods.github.io/BeaverBuddies-Stability-Fork/"><img src="https://raw.githubusercontent.com/timbermods/.github/15f0137d1d73a95276e9e240fc7a7950c7723ab4/profile/cards/beaverbuddies-stability-fork.png" alt="A log round between the two handles of a crosscut saw" width="100%"></a>
 <h3><a href="https://timbermods.github.io/BeaverBuddies-Stability-Fork/">BeaverBuddies Stability Fork</a></h3>
 <p><b>Co-op with fewer crashes and desyncs.</b><br>An independent fork of <a href="https://github.com/thomaswp/BeaverBuddies">BeaverBuddies</a> for one shared colony, with Steam friend invites, a connection panel, teammate cursors and fixes for desyncs, crashes and reconnects. Feature-complete: it gets fixes and game updates, and new features go into Timber Together.</p>
 <p><img src="https://img.shields.io/badge/Multiplayer-b8322a?style=flat-square" alt="Category: Multiplayer"> <img src="https://img.shields.io/github/v/release/timbermods/BeaverBuddies-Stability-Fork?label=latest&labelColor=1f2124&color=b8322a&style=flat-square" alt="Latest release"> <img src="https://img.shields.io/badge/Feature--complete-1d6b3a?style=flat-square" alt="Feature-complete"></p>
