@@ -191,9 +191,9 @@ def grass(x0, x1, base_fn, colour, n):
 
 
 def build():
-    title_a, wa = text_path("anybody-latin-800-normal.woff2", "Timber", 142, 146, 72)
-    title_b, wb = text_path("anybody-latin-800-normal.woff2", "mods", 142 + wa + 2, 146, 72)
-    sub, ws = text_path("anybody-latin-700-normal.woff2", "MODS FOR TIMBERBORN", 145, 188, 18, tracking=2.6)
+    title_a, wa = text_path("anybody-latin-800-normal.woff2", "Timber", 142, 158, 72)
+    title_b, wb = text_path("anybody-latin-800-normal.woff2", "mods", 142 + wa + 2, 158, 72)
+    sub, ws = text_path("anybody-latin-700-normal.woff2", "MODS FOR TIMBERBORN", 145, 200, 18, tracking=2.6)
     stars = "".join(f'<circle cx="{f1(rnd.uniform(620, 1180))}" cy="{f1(rnd.uniform(14, 120))}" r="{f1(rnd.uniform(.7, 1.5))}" fill="#f3e3b8" opacity="{f1(rnd.uniform(.3, .75))}"/>' for _ in range(22))
     flies = "".join(f'<circle cx="{f1(x)}" cy="{f1(y)}" r="2.2" fill="#ffd98a" filter="url(#glow)"/><circle cx="{f1(x)}" cy="{f1(y)}" r="1.1" fill="#fff4cf"/>'
                     for x, y in [(420, 262), (468, 244), (515, 270), (560, 252), (1172, 236), (1190, 262), (944, 226), (596, 232)])
@@ -249,7 +249,7 @@ def build():
     {birch(1252, 311, 158, -3)}
     {flies}
     <rect width="{W}" height="{H}" filter="url(#grain)" opacity=".9"/>
-    <g transform="translate(62 90) scale(2)">
+    <g transform="translate(62 102) scale(2)">
       <circle cx="16" cy="16" r="14.5" fill="#56402a"/><circle cx="16" cy="16" r="11.5" fill="#e0c79a"/>
       <circle cx="16" cy="16" r="8" fill="none" stroke="#c7a878" stroke-width="1.2"/><circle cx="16" cy="16" r="4.5" fill="none" stroke="#c7a878" stroke-width="1.2"/>
       <path d="M16 5.5 L22.5 15 H19 L24 22.5 H8 L13 15 H9.5 Z" fill="#2f5d3a"/><rect x="14.6" y="22.5" width="2.8" height="4" fill="#56402a"/>
@@ -257,7 +257,6 @@ def build():
     <path d="{title_a}" fill="#f2e7cf"/>
     <path d="{title_b}" fill="#a9d8a3"/>
     <path d="{sub}" fill="#e3a857"/>
-    <text x="145" y="221" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#cdbf9f">Free and open source, made by players.</text>
   </g>
 </svg>
 '''
