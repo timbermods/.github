@@ -1,34 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
 <defs>
-  <radialGradient id="bg" cx="50%" cy="38%" r="75%">
-    <stop offset="0" stop-color="#2c4a33"/><stop offset=".6" stop-color="#1c3024"/><stop offset="1" stop-color="#121e17"/>
+  <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+    <stop offset="0" stop-color="#1f3627"/><stop offset=".6" stop-color="#16281e"/><stop offset="1" stop-color="#0d1a14"/>
   </radialGradient>
-  <radialGradient id="glow" cx="50%" cy="46%" r="50%">
-    <stop offset="0" stop-color="#eaa94f" stop-opacity=".3"/><stop offset="1" stop-color="#eaa94f" stop-opacity="0"/>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#eaa94f" stop-opacity=".22"/><stop offset="1" stop-color="#eaa94f" stop-opacity="0"/>
   </radialGradient>
-  <linearGradient id="brass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e2bd72"/><stop offset=".5" stop-color="#c19a5b"/><stop offset="1" stop-color="#8a6a2c"/></linearGradient>
 </defs>
 <rect width="512" height="512" fill="url(#bg)"/>
 <rect width="512" height="512" fill="url(#glow)"/>
-
-<g transform="translate(256 262)">
-  <circle r="200" fill="#0f1a13" opacity=".45" transform="translate(0 10)"/>
-  <rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(0)"/><rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(30)"/><rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(60)"/><rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(90)"/><rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(120)"/><rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(150)"/><rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(180)"/><rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(210)"/><rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(240)"/><rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(270)"/><rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(300)"/><rect x="-22" y="-218" width="44" height="46" rx="8" fill="url(#brass)" transform="rotate(330)"/>
-  <circle r="186" fill="url(#brass)"/>
-  <circle r="186" fill="none" stroke="#6e5222" stroke-width="4"/>
-  <circle r="150" fill="#1c3024"/>
-  <circle r="150" fill="none" stroke="#6e5222" stroke-width="6"/>
-  <circle cx="154.5" cy="41.4" r="7" fill="#8a6a2c"/><circle cx="41.4" cy="154.5" r="7" fill="#8a6a2c"/><circle cx="-113.1" cy="113.1" r="7" fill="#8a6a2c"/><circle cx="-154.5" cy="-41.4" r="7" fill="#8a6a2c"/><circle cx="-41.4" cy="-154.5" r="7" fill="#8a6a2c"/><circle cx="113.1" cy="-113.1" r="7" fill="#8a6a2c"/>
+<circle cx="256" cy="264" r="191.36" fill="#070d0a" opacity=".35"/>
+<g transform="translate(48.0 48.0) scale(13)">
+<circle cx="16" cy="16" r="14.5" fill="#56402a"/><circle cx="16" cy="16" r="11.5" fill="#e0c79a"/>
+<circle cx="16" cy="16" r="8" fill="none" stroke="#c7a878" stroke-width="1.2"/><circle cx="16" cy="16" r="4.5" fill="none" stroke="#c7a878" stroke-width="1.2"/>
+<path d="M16 5.5 L22.5 15 H19 L24 22.5 H8 L13 15 H9.5 Z" fill="#2f5d3a"/><rect x="14.6" y="22.5" width="2.8" height="4" fill="#56402a"/>
 </g>
-<!-- the hill and the pine inside the gear's hole -->
-<clipPath id="hole"><circle cx="256" cy="262" r="146"/></clipPath>
-<g clip-path="url(#hole)">
-  <rect x="100" y="110" width="312" height="310" fill="#223b2b"/>
-  <circle cx="256" cy="200" r="120" fill="#eaa94f" opacity=".16"/>
-  <path d="M100 360 C170 330 342 330 412 360 V420 H100 Z" fill="#2f5d3a"/>
-  <path d="M256 118 L300 213.8 L212 213.8 Z" fill="#2f5d3a"/><path d="M256 118 L256 213.8 L212 213.8 Z" fill="#4a8a52"/><path d="M256 172.7 L322 277.6 L190 277.6 Z" fill="#2f5d3a"/><path d="M256 172.7 L256 277.6 L190 277.6 Z" fill="#4a8a52"/><path d="M256 227.4 L344 336.9 L168 336.9 Z" fill="#2f5d3a"/><path d="M256 227.4 L256 336.9 L168 336.9 Z" fill="#4a8a52"/><rect x="243.7" y="336.9" width="24.6" height="31.9" fill="#56402a"/>
-  <circle cx="160" cy="170" r="1.8" fill="#f3e3b8" opacity=".8"/><circle cx="340" cy="150" r="1.8" fill="#f3e3b8" opacity=".8"/><circle cx="180" cy="250" r="1.8" fill="#f3e3b8" opacity=".8"/><circle cx="350" cy="230" r="1.8" fill="#f3e3b8" opacity=".8"/>
-</g>
-<!-- the pine's tip breaks out over the top of the gear -->
-<path d="M256 80 L290 150 L222 150 Z" fill="#2f5d3a"/><path d="M256 80 L256 150 L222 150 Z" fill="#4a8a52"/>
 </svg>
