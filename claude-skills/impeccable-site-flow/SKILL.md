@@ -30,6 +30,19 @@ Read it first, and follow it wherever it's more specific than this skill.
 - **`release.js` is shared across most timbermods sites** and byte-identical there. Replace it, never edit it.
   Timber Together runs its own variant; Persistent Work Areas and the hub use their own `site.js`. Each repo's CLAUDE.md
   says which applies.
+- **Write short and plain** (Kyler, 2026-09-24: "simplicity and elegance is effective and desirable"). Every README
+  and site text change is for a Timberborn player who wants to download, install and play:
+  - one idea per sentence, most under about 20 words;
+  - one to three sentences per paragraph or FAQ answer, a few numbered steps per troubleshooting answer;
+  - lead with the action and write menu paths as arrow chains (Load game → pick a save → **Host co-op game**);
+  - bold on-screen labels, spelled exactly as in the mod's English strings;
+  - say each thing once and link to it elsewhere;
+  - no internals (classes, ids, messages between computers), filler, repeated caveats or history ("since …", "no longer");
+  - check every flow against the code before writing it, since changelogs lag;
+  - reread as a new player before publishing.
+
+  Developer detail goes in a DEVELOPING.md or the changelog, not the README. Timber Together's copy pass (PR #22) is
+  the model.
 - **Tooltips in Mod Settings don't wrap** (≤112 chars per line). That only matters if site copy is reused in game.
 - **Once a plan is agreed, keep going to the end** (build → review → fix → PR → publish) without pausing. Ask only real
   product decisions. Merging needs Kyler's say-so in chat, because the auto-mode classifier blocks `gh pr merge`
