@@ -1,5 +1,7 @@
 """Draws the organization profile's banner, profile/banner.svg (1280x360): a river valley at dusk with a beaver
 dam, a lodge and a beaver swimming home with a branch, among pines and birches. Nothing in it depends on any one mod.
+The catalog opens on the same scene (by day and at dusk, without text), drawn by timbermods.github.io
+assets/img/make_valley.py with the same seed and drawing order: change the two together.
 
 Everything is vector. The title is set in Anybody (profile/src/, OFL) and converted to outlines, so it looks the same
 wherever GitHub shows it. Trees, logs and sticks are placed with a fixed seed, so a re-run gives the same banner.

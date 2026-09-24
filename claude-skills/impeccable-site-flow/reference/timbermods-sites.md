@@ -28,7 +28,8 @@ detail: design rules, test, preview, publish, and the release-update checklist.
 - **Org profile** (`timbermods/.github`, `profile/`): its README repeats each mod's hub text, accent, category and
   group. Its per-mod pictures are rendered from the live hub by `python profile/make_images.py`; re-run that after a
   hub picture changes. Its banner, `banner.svg`, is a drawn beaver valley at dusk made by `profile/make_banner.py`; never build a banner
-  from the mods' pictures.
+  from the mods' pictures. The hub opens on the same valley (`assets/img/make_valley.py`, day and dusk); change both
+  together.
 - **Kyler's taste (hub and profile):** no "card"/binder wording in visible text; wood, brown and green over black/white;
   no banners composited from mod pictures; every picture must show what the mod actually does.
 - **A new site's look must differ from every look above.**
