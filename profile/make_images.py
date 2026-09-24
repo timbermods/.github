@@ -7,10 +7,14 @@ this. Re-run it after a mod's picture changes in the catalog:
 
     python profile/make_images.py
 
+A mod listed in DARK instead uses its own site's picture captured in dark mode (the profile sits on GitHub's dark
+theme): the element is taken from the live site, cover-cropped to 960x600 like the catalog's.
+
 Needs Python with playwright, and Microsoft Edge installed (it drives the installed Edge; no browser download).
 """
-import base64, os
+import base64, io, os
 from playwright.sync_api import sync_playwright
+from PIL import Image
 
 HUB = "https://timbermods.github.io/"
 SRC_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "src")
@@ -54,11 +58,32 @@ body {{ background: transparent; }}
 </style>"""
 
 
-def card_html(cid, accent, pill):
+# card id -> (the mod's site, the CSS selector of its picture): captured in dark mode instead of the catalog's
+DARK = {
+    "timber-together": ("https://timbermods.github.io/TimberTogether/", ".hero figure"),
+}
+
+
+def dark_picture(browser, url, selector):
+    page = browser.new_page(viewport={"width": 1440, "height": 900}, color_scheme="dark", reduced_motion="reduce",
+                            device_scale_factor=1.5)
+    page.goto(url, wait_until="networkidle")
+    page.wait_for_timeout(600)
+    im = Image.open(io.BytesIO(page.locator(selector).first.screenshot())).convert("RGB")
+    page.close()
+    s = max(960 / im.width, 600 / im.height)
+    im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
+    left, top = (im.width - 960) // 2, (im.height - 600) // 2
+    buf = io.BytesIO()
+    im.crop((left, top, left + 960, top + 600)).save(buf, "WEBP", quality=90)
+    return "data:image/webp;base64," + base64.b64encode(buf.getvalue()).decode()
+
+
+def card_html(cid, accent, pill, picture=None):
     return BASE + f"""
 <div id="shot" class="page" style="width:640px;height:400px;padding:14px 16px;border-radius:12px">
   <div class="sleeve" style="height:100%"><div class="card" style="--c:{accent};height:100%">
-    <img src="{HUB}assets/img/cards/{cid}.webp" alt="">
+    <img src="{picture or HUB + 'assets/img/cards/' + cid + '.webp'}" alt="">
   </div></div>
 </div>"""
 
@@ -77,5 +102,6 @@ with sync_playwright() as p:
     page = browser.new_page(device_scale_factor=1)
     os.makedirs(os.path.join(OUT, "cards"), exist_ok=True)
     for cid, accent, pill in CARDS:
-        render(page, card_html(cid, accent, pill), os.path.join(OUT, "cards", cid + ".png"), 640, 400)
+        picture = dark_picture(browser, *DARK[cid]) if cid in DARK else None
+        render(page, card_html(cid, accent, pill, picture), os.path.join(OUT, "cards", cid + ".png"), 640, 400)
     browser.close()
