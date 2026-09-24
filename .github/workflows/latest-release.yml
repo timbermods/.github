@@ -1,0 +1,75 @@
+# Shared by every timbermods mod repo: what happens when a release becomes GitHub's Latest release.
+# Fixed, mechanical updates only (release-notes footer, the site's version fallbacks, README lines marked
+# <!-- latest -->), checked, then committed to the default branch. Pre-releases, drafts and a release that isn't
+# the Latest change nothing. The work is done by scripts/latest_release.py in this repository.
+#
+# Each mod repo calls it from .github/workflows/latest-release.yml, e.g.:
+#
+#   on:
+#     release: { types: [released] }
+#     workflow_dispatch: { inputs: { dry-run: { type: boolean, default: true } } }
+#   permissions: { contents: write, issues: write, pages: write }
+#   jobs:
+#     update:
+#       uses: timbermods/.github/.github/workflows/latest-release.yml@main
+#       with:
+#         site-url: https://timbermods.github.io/MixedStorage/
+#         asset-pattern: '^MixedStorage-v[\d.]+\.zip$'
+#         test-command: node tests/test-site.mjs
+#         dry-run: ${{ github.event_name == 'workflow_dispatch' && inputs.dry-run }}
+name: Latest release (shared)
+
+on:
+  workflow_call:
+    inputs:
+      site-dir:
+        description: Folder that holds the website
+        type: string
+        default: docs
+      site-url:
+        description: The website's address, with the trailing slash
+        type: string
+        required: true
+      install-page:
+        description: The install guide, relative to site-url ('' when the home page has it)
+        type: string
+        default: install.html
+      asset-pattern:
+        description: Regex that picks the mod's zip among the release's assets
+        type: string
+        required: true
+      test-command:
+        description: The repo's own site check, if it has one
+        type: string
+        default: ''
+      dry-run:
+        description: Show what would change, change nothing
+        type: boolean
+        default: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Check out the shared script
+        uses: actions/checkout@v4
+        with:
+          repository: timbermods/.github
+          path: .timbermods-ci
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Update for the Latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          echo ".timbermods-ci/" >> .git/info/exclude
+          args=(--repo "$GITHUB_REPOSITORY" --tag "$TAG" --site-dir "${{ inputs.site-dir }}" --site-url "${{ inputs.site-url }}" \
+                --install-page "${{ inputs.install-page }}" --asset-pattern '${{ inputs.asset-pattern }}' --test-command '${{ inputs.test-command }}')
+          if [ "${{ inputs.dry-run }}" = "true" ]; then args+=(--dry-run); fi
+          python3 .timbermods-ci/scripts/latest_release.py "${args[@]}"
