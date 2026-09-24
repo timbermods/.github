@@ -22,7 +22,7 @@ Organization-wide files for [Timbermods](https://github.com/timbermods).
 3. Copy one `<td>` block in `profile/README.md` into the right group (Play together, Big colonies, Build and plan, as in the catalog), then change the image, links, text and accent colour. Keep the text the same as the catalog's. The version badge follows the repository's latest release by itself, so no version is written by hand.
 4. If the repository has only pre-releases, keep `&include_prereleases` in its version badge and the **Preview** badge. Once it has a stable release, remove both.
 
-Image links in the profile are absolute `raw.githubusercontent.com` URLs, so they load wherever the profile is rendered. GitHub caches those images by URL, so after re-rendering them raise the `?v=` number on each changed image's link in `profile/README.md`, or the profile keeps showing the old picture.
+Image links in the profile are absolute `raw.githubusercontent.com` URLs, so they load wherever the profile is rendered. GitHub's image servers cache those files by path for a few minutes and can ignore a `?v=` query, so a changed image can keep showing the old version. The banner is therefore linked by the commit that holds it (`raw.githubusercontent.com/timbermods/.github/<commit>/profile/banner.svg`): after changing it, merge, then point that link at the new commit. The mod pictures use `?v=` numbers; if one sticks, link it by commit the same way.
 
 ## The website design flow (Claude Code)
 

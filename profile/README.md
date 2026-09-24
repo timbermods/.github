@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://timbermods.github.io/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/banner.svg?v=4" alt="Timbermods: mods for Timberborn" width="100%"></a>
+  <a href="https://timbermods.github.io/"><img src="https://raw.githubusercontent.com/timbermods/.github/9229670759214c0dee6aac992942b8f64f2d8242/profile/banner.svg" alt="Timbermods: mods for Timberborn" width="100%"></a>
 </p>
 
 <p align="center">
