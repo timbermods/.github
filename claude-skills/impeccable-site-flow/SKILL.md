@@ -14,6 +14,8 @@ hub's collector's binder. Two modes:
   (a new release, changed features) and keep the look exactly as recorded. → [Update mode](#update-mode)
 - **Redesign**: a site gets its own new visual world. → [Redesign mode](#redesign-mode)
 
+For a working web app such as Dam Good Maps, use the `impeccable-app-flow` skill instead.
+
 Each repo's `CLAUDE.md` carries that site's specifics: where it lives, tests, preview, publishing and design rules.
 Read it first, and follow it wherever it's more specific than this skill.
 

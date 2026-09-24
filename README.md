@@ -14,6 +14,7 @@ Organization-wide files for [Timbermods](https://github.com/timbermods). `profil
 | `profile/cards/*.png` | One 640 × 400 picture per mod, from the [catalog](https://timbermods.github.io/), framed in the mod's colour |
 | `profile/make_images.py` | Renders those pictures (`profile/src/` holds its textures and font) |
 | `claude-skills/impeccable-site-flow/` | The Claude Code skill that designed every Timbermods website and keeps each one current |
+| `claude-skills/impeccable-app-flow/` | The Claude Code skill for designing an app (Dam Good Maps) without losing what it means |
 | `.github/workflows/latest-release.yml`, `scripts/latest_release.py` | The shared Latest-release workflow ([below](#when-a-mod-gets-a-new-latest-release)) |
 
 ## Adding a mod
@@ -46,6 +47,10 @@ modes:
 It needs the Impeccable plugin for Claude Code. To install it for your user, copy the folder to
 `~/.claude/skills/impeccable-site-flow/`. Each mod repo's `CLAUDE.md` carries that site's design rules, tests, preview
 and publish steps, so a session can update a site for the latest release even without the skill.
+
+`claude-skills/impeccable-app-flow/` is the same flow, changed for a working web app such as Dam Good Maps. Meaning
+comes first: MEANING.md outranks DESIGN.md, and guard tests freeze the meaning before any restyle. It splits the app
+into three zones: frame, instruments and map. Install it the same way, to `~/.claude/skills/impeccable-app-flow/`.
 
 ## When a mod gets a new Latest release
 
