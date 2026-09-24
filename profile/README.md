@@ -14,26 +14,26 @@ Timbermods makes mods for [Timberborn](https://timberborn.com/): more stable co-
 
 ### Play together
 
-Co-op through BeaverBuddies. Install one BeaverBuddies at a time: the Stability Fork is one shared colony; MultiColony is built on it and adds a colony for each player.
+Co-op through BeaverBuddies. Install one BeaverBuddies at a time: the Stability Fork is one shared colony; Timber Together is built on it and adds a colony for each player.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://timbermods.github.io/BeaverBuddies-Stability-Fork/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/beaverbuddies-stability-fork.png?v=2" alt="A log round between the two handles of a crosscut saw" width="100%"></a>
 <h3><a href="https://timbermods.github.io/BeaverBuddies-Stability-Fork/">BeaverBuddies Stability Fork</a></h3>
-<p><b>Co-op with fewer crashes and desyncs.</b><br>An independent fork of <a href="https://github.com/thomaswp/BeaverBuddies">BeaverBuddies</a> for one shared colony, with Steam friend invites, a connection panel, teammate cursors and fixes for desyncs, crashes and reconnects. Feature-complete: it gets fixes and game updates, and new features go into MultiColony.</p>
+<p><b>Co-op with fewer crashes and desyncs.</b><br>An independent fork of <a href="https://github.com/thomaswp/BeaverBuddies">BeaverBuddies</a> for one shared colony, with Steam friend invites, a connection panel, teammate cursors and fixes for desyncs, crashes and reconnects. Feature-complete: it gets fixes and game updates, and new features go into Timber Together.</p>
 <p><img src="https://img.shields.io/badge/Multiplayer-b8322a?style=flat-square" alt="Category: Multiplayer"> <img src="https://img.shields.io/github/v/release/timbermods/BeaverBuddies-Stability-Fork?label=latest&labelColor=1f2124&color=b8322a&style=flat-square" alt="Latest release"> <img src="https://img.shields.io/badge/Feature--complete-1d6b3a?style=flat-square" alt="Feature-complete"></p>
 <p><sub><b>Requires</b> Harmony, Mod Settings</sub></p>
 <p><a href="https://timbermods.github.io/BeaverBuddies-Stability-Fork/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/BeaverBuddies-Stability-Fork">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/BeaverBuddies-Stability-Fork/releases/latest"><b>Download</b></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/BeaverBuddies-MultiColony/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/beaverbuddies-multicolony.png?v=2" alt="Two colonies&#x27; roads meeting only at a Trading Post, beside one river" width="100%"></a>
-<h3><a href="https://timbermods.github.io/BeaverBuddies-MultiColony/">BeaverBuddies MultiColony</a></h3>
-<p><b>Two players, one map, a colony each.</b><br>Built on the Stability Fork. Each player runs a colony of their own, with its own beavers, stock, science and working hours, on one shared map. The colonies' roads never join: they trade only at Trading Posts. Or share one colony, as in the fork.</p>
-<p><img src="https://img.shields.io/badge/Multiplayer-1a6a77?style=flat-square" alt="Category: Multiplayer"> <img src="https://img.shields.io/github/v/release/timbermods/BeaverBuddies-MultiColony?label=latest&labelColor=1f2124&color=1a6a77&style=flat-square&include_prereleases" alt="Latest release"> <img src="https://img.shields.io/badge/Beta-b07a12?style=flat-square" alt="Beta"></p>
+<a href="https://timbermods.github.io/TimberTogether/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/timber-together.png" alt="Two colonies&#x27; roads meeting only at a Trading Post, beside one river" width="100%"></a>
+<h3><a href="https://timbermods.github.io/TimberTogether/">Timber Together</a></h3>
+<p><b>Build apart. Thrive together.</b><br>Built on <a href="https://github.com/thomaswp/BeaverBuddies">BeaverBuddies</a> by thomaswp, through the Stability Fork. Each player runs a colony of their own, with its own beavers, stock, science and working hours, on one shared map. The colonies' roads never join: they trade only at Trading Posts. Or share one colony, as in the fork.</p>
+<p><img src="https://img.shields.io/badge/Multiplayer-1a6a77?style=flat-square" alt="Category: Multiplayer"> <img src="https://img.shields.io/github/v/release/timbermods/TimberTogether?label=latest&labelColor=1f2124&color=1a6a77&style=flat-square&include_prereleases" alt="Latest release"> <img src="https://img.shields.io/badge/Beta-b07a12?style=flat-square" alt="Beta"></p>
 <p><sub>Beta, the release candidate: play on a copy of your save.</sub></p>
 <p><sub><b>Requires</b> Harmony, Mod Settings</sub></p>
-<p><a href="https://timbermods.github.io/BeaverBuddies-MultiColony/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/BeaverBuddies-MultiColony">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/BeaverBuddies-MultiColony/releases"><b>Download</b></a></p>
+<p><a href="https://timbermods.github.io/TimberTogether/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/TimberTogether">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/TimberTogether/releases"><b>Download</b></a></p>
 </td>
 </tr>
 </table>
@@ -130,5 +130,5 @@ Most mods have their own website with an install guide, troubleshooting and an F
 
 <p align="center">
   <sub>Timbermods makes unofficial community mods for Timberborn. Not affiliated with or endorsed by Mechanistry, the developer of Timberborn.<br>
-  BeaverBuddies Stability Fork and BeaverBuddies MultiColony build on <a href="https://github.com/thomaswp/BeaverBuddies">BeaverBuddies</a> by thomaswp and contributors. All credit for its multiplayer design belongs to them.</sub>
+  BeaverBuddies Stability Fork and Timber Together build on <a href="https://github.com/thomaswp/BeaverBuddies">BeaverBuddies</a> by thomaswp and contributors. All credit for its multiplayer design belongs to them.</sub>
 </p>
