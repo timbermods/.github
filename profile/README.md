@@ -19,7 +19,7 @@ Co-op through BeaverBuddies. Only one BeaverBuddies can run at a time: pick the 
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/BeaverBuddies-Stability-Fork/"><img src="https://raw.githubusercontent.com/timbermods/.github/15f0137d1d73a95276e9e240fc7a7950c7723ab4/profile/cards/beaverbuddies-stability-fork.png" alt="A shared colony map with two players&#x27; cursors and an In sync panel" width="100%"></a>
+<a href="https://timbermods.github.io/BeaverBuddies-Stability-Fork/"><img src="https://raw.githubusercontent.com/timbermods/.github/b1148751cbbecf82b18e23c1e329e83bde0f1ed7/profile/cards/beaverbuddies-stability-fork.png" alt="A shared colony map with two players&#x27; cursors and an In sync panel" width="100%"></a>
 <h3><a href="https://timbermods.github.io/BeaverBuddies-Stability-Fork/">BeaverBuddies Stability Fork</a></h3>
 <p><b>Co-op with fewer crashes and desyncs.</b><br>Build one colony together in real time. An independent fork of <a href="https://github.com/thomaswp/BeaverBuddies">BeaverBuddies</a> that adds Steam friend invites, a connection panel and teammate cursors. Feature-complete: it gets fixes and game updates, and new features go into Timber Together.</p>
 <p><img src="https://img.shields.io/badge/Multiplayer-b8322a?style=flat-square" alt="Category: Multiplayer"> <img src="https://img.shields.io/github/v/release/timbermods/BeaverBuddies-Stability-Fork?label=latest&labelColor=1f2124&color=b8322a&style=flat-square" alt="Latest release"> <img src="https://img.shields.io/badge/Feature--complete-1d6b3a?style=flat-square" alt="Feature-complete"></p>
@@ -27,7 +27,7 @@ Co-op through BeaverBuddies. Only one BeaverBuddies can run at a time: pick the 
 <p><a href="https://timbermods.github.io/BeaverBuddies-Stability-Fork/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/BeaverBuddies-Stability-Fork">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/BeaverBuddies-Stability-Fork/releases/latest"><b>Download</b></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/TimberTogether/"><img src="https://raw.githubusercontent.com/timbermods/.github/ca57ca18bd4ee0fbf15a848827b7121a936e37a4/profile/cards/timber-together.png" alt="Two colonies&#x27; roads meeting only at a Trading Post, beside one river" width="100%"></a>
+<a href="https://timbermods.github.io/TimberTogether/"><img src="https://raw.githubusercontent.com/timbermods/.github/b1148751cbbecf82b18e23c1e329e83bde0f1ed7/profile/cards/timber-together.png" alt="Two colonies&#x27; roads meeting only at a Trading Post, beside one river" width="100%"></a>
 <h3><a href="https://timbermods.github.io/TimberTogether/">Timber Together</a></h3>
 <p><b>Build apart. Thrive together.</b><br>Built on <a href="https://github.com/thomaswp/BeaverBuddies">BeaverBuddies</a> by thomaswp, through the Stability Fork. Each player runs a colony of their own, with its own beavers, stock, science and working hours, on one shared map. The colonies' roads never join: they trade only at Trading Posts. Or share one colony, as in the fork.</p>
 <p><img src="https://img.shields.io/badge/Multiplayer-1a6a77?style=flat-square" alt="Category: Multiplayer"> <img src="https://img.shields.io/github/v/release/timbermods/TimberTogether?label=latest&labelColor=1f2124&color=1a6a77&style=flat-square&include_prereleases" alt="Latest release"> <img src="https://img.shields.io/badge/Beta-b07a12?style=flat-square" alt="Beta"></p>
@@ -45,7 +45,7 @@ For colonies that have grown large enough to hitch, walk too far or work hungry.
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/LateGamePerformance/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/late-game-performance.png?v=2" alt="A pit board timing the hauler job list: 0.94 ms in the game, 0.24 ms with the mod" width="100%"></a>
+<a href="https://timbermods.github.io/LateGamePerformance/"><img src="https://raw.githubusercontent.com/timbermods/.github/b1148751cbbecf82b18e23c1e329e83bde0f1ed7/profile/cards/late-game-performance.png" alt="A pit board timing the hauler job list: 0.94 ms in the game, 0.24 ms with the mod" width="100%"></a>
 <h3><a href="https://timbermods.github.io/LateGamePerformance/">Late Game Performance</a></h3>
 <p><b>Fewer lag spikes in big colonies.</b><br>Keeps answers the game has already worked out and moves heavy work to other CPU cores. Beavers make the same choices they would anyway. Built for BeaverBuddies co-op.</p>
 <p><img src="https://img.shields.io/badge/Performance-5b3fd0?style=flat-square" alt="Category: Performance"> <img src="https://img.shields.io/github/v/release/timbermods/LateGamePerformance?label=latest&labelColor=1f2124&color=5b3fd0&style=flat-square" alt="Latest release"> <img src="https://img.shields.io/badge/Young%20mod-b07a12?style=flat-square" alt="Young mod"></p>
@@ -54,7 +54,7 @@ For colonies that have grown large enough to hitch, walk too far or work hungry.
 <p><a href="https://timbermods.github.io/LateGamePerformance/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/LateGamePerformance">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/LateGamePerformance/releases/latest"><b>Download</b></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/OptimizedLocalHousing/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/optimized-local-housing.png?v=2" alt="A seating plan of homes and workplaces joined by the shortest walks" width="100%"></a>
+<a href="https://timbermods.github.io/OptimizedLocalHousing/"><img src="https://raw.githubusercontent.com/timbermods/.github/b1148751cbbecf82b18e23c1e329e83bde0f1ed7/profile/cards/optimized-local-housing.png" alt="A seating plan of homes and workplaces joined by the shortest walks" width="100%"></a>
 <h3><a href="https://timbermods.github.io/OptimizedLocalHousing/">Optimized Local Housing</a></h3>
 <p><b>Shorter commutes, solved once a day.</b><br>Moves adult beavers into the homes that give the whole colony the shortest total walk to work. Every home keeps the same number of adults, and children never move.</p>
 <p><img src="https://img.shields.io/badge/Housing-2d5f9a?style=flat-square" alt="Category: Housing"> <img src="https://img.shields.io/github/v/release/timbermods/OptimizedLocalHousing?label=latest&labelColor=1f2124&color=2d5f9a&style=flat-square" alt="Latest release"></p>
@@ -64,7 +64,7 @@ For colonies that have grown large enough to hitch, walk too far or work hungry.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/HungryPathing/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/hungry-pathing.png?v=2" alt="A shift board: a beaver&#x27;s hunger over a working day, with and without the mod" width="100%"></a>
+<a href="https://timbermods.github.io/HungryPathing/"><img src="https://raw.githubusercontent.com/timbermods/.github/b1148751cbbecf82b18e23c1e329e83bde0f1ed7/profile/cards/hungry-pathing.png" alt="A shift board: a beaver&#x27;s hunger over a working day, with and without the mod" width="100%"></a>
 <h3><a href="https://timbermods.github.io/HungryPathing/">Hungry Pathing</a></h3>
 <p><b>Fed before the whistle, not after.</b><br>During working hours, beavers eat and drink before the hunger penalty, at the closest stocked storage. Off duty nothing changes, and they don't eat more.</p>
 <p><img src="https://img.shields.io/badge/Beaver%20needs-1d4a86?style=flat-square" alt="Category: Beaver needs"> <img src="https://img.shields.io/github/v/release/timbermods/HungryPathing?label=latest&labelColor=1f2124&color=1d4a86&style=flat-square" alt="Latest release"> <img src="https://img.shields.io/badge/Beta-b07a12?style=flat-square" alt="Beta"></p>
@@ -83,7 +83,7 @@ Storage, planting and a new building.
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/MixedStorage/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/mixedstorage.png?v=2" alt="A walnut drawer cabinet with brass-labelled drawers of goods" width="100%"></a>
+<a href="https://timbermods.github.io/MixedStorage/"><img src="https://raw.githubusercontent.com/timbermods/.github/b1148751cbbecf82b18e23c1e329e83bde0f1ed7/profile/cards/mixedstorage.png" alt="A walnut drawer cabinet with brass-labelled drawers of goods" width="100%"></a>
 <h3><a href="https://timbermods.github.io/MixedStorage/">MixedStorage</a></h3>
 <p><b>Several goods in one warehouse.</b><br>Divide a warehouse or pile by percentage, say 50% carrots and 50% gears. A compact panel shows exactly what is stored.</p>
 <p><img src="https://img.shields.io/badge/Storage-8a6a2c?style=flat-square" alt="Category: Storage"> <img src="https://img.shields.io/github/v/release/timbermods/MixedStorage?label=latest&labelColor=1f2124&color=8a6a2c&style=flat-square" alt="Latest release"></p>
@@ -91,7 +91,7 @@ Storage, planting and a new building.
 <p><a href="https://timbermods.github.io/MixedStorage/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/MixedStorage">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/MixedStorage/releases/latest"><b>Download</b></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/PersistentWorkAreas/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/persistent-work-areas.png?v=2" alt="A plan of a farmhouse and a forester with a pinned working-area outline" width="100%"></a>
+<a href="https://timbermods.github.io/PersistentWorkAreas/"><img src="https://raw.githubusercontent.com/timbermods/.github/b1148751cbbecf82b18e23c1e329e83bde0f1ed7/profile/cards/persistent-work-areas.png" alt="A plan of a farmhouse and a forester with a pinned working-area outline" width="100%"></a>
 <h3><a href="https://timbermods.github.io/PersistentWorkAreas/">Persistent Work Areas</a></h3>
 <p><b>Keep working-area outlines on screen.</b><br>Select a farm, forester or gatherer and tick <b>Keep working area visible</b>: its outline stays after you deselect it. Pick a crop or tree in the planting tools, and the buildings that plant it are outlined too.</p>
 <p><img src="https://img.shields.io/badge/Planning-8a6512?style=flat-square" alt="Category: Planning"> <img src="https://img.shields.io/github/v/release/timbermods/PersistentWorkAreas?label=latest&labelColor=1f2124&color=8a6512&style=flat-square" alt="Latest release"></p>
@@ -101,7 +101,7 @@ Storage, planting and a new building.
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/timberborn-tipsy-tail/"><img src="https://raw.githubusercontent.com/timbermods/.github/main/profile/cards/the-tipsy-tail.png?v=2" alt="The Tipsy Tail pool bar standing on a bar top" width="100%"></a>
+<a href="https://timbermods.github.io/timberborn-tipsy-tail/"><img src="https://raw.githubusercontent.com/timbermods/.github/b1148751cbbecf82b18e23c1e329e83bde0f1ed7/profile/cards/the-tipsy-tail.png" alt="The Tipsy Tail pool bar standing on a bar top" width="100%"></a>
 <h3><a href="https://timbermods.github.io/timberborn-tipsy-tail/">The Tipsy Tail</a></h3>
 <p><b>A swim-up pool bar for your beavers.</b><br>A timber-and-thatch pool bar for eight beavers at once. It adds a Social Life need of its own, worth up to +2 well-being, and relieves Wet fur like the Lido. Haulers keep it filled with water.</p>
 <p><img src="https://img.shields.io/badge/Building-1a6773?style=flat-square" alt="Category: Building"> <img src="https://img.shields.io/github/v/release/timbermods/timberborn-tipsy-tail?label=latest&labelColor=1f2124&color=1a6773&style=flat-square" alt="Latest release"></p>
