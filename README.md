@@ -11,7 +11,7 @@ Organization-wide files for [Timbermods](https://github.com/timbermods).
 | `profile/README.md` | The organization profile: banner, the mods, install steps |
 | `profile/banner.svg` | The header image: a river valley at dusk, a beaver swimming home past its lodge and dam, pines and birches |
 | `profile/make_banner.py` | Draws `banner.svg` (fixed seed; the title is Anybody from `profile/src/`, turned into outlines). Needs `pip install fonttools brotli` |
-| `profile/avatar/` | The organization's avatar: a pine growing up through a brass gear. `make_avatar.py` draws the SVG; upload `timbermods-avatar-1024.png` at the org's Settings → Profile picture |
+| `profile/avatar/` | The organization's avatar: the Timbermods mark (a pine on a cut log end, as in the banner and the catalog), on the banner's forest green. `make_avatar.py` draws the SVG; upload `timbermods-avatar-1024.png` at the org's Settings → Profile picture |
 | `profile/cards/*.png` | One 640 x 400 picture per mod: its picture from the [catalog](https://timbermods.github.io/) in a sleeve, framed in the mod's colour |
 | `profile/make_images.py` | Renders those pictures (`profile/src/` holds its textures and font) |
 | `claude-skills/impeccable-site-flow/` | The Claude Code skill that designed every Timbermods website, and keeps each one current |
