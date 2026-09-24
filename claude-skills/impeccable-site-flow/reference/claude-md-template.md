@@ -16,6 +16,10 @@ land on main (PR → merge).>
 
 - Never launch or drive Timberborn, and never touch installed mods or saves. The maintainer (Kyler) playtests himself.
 - Commit on a branch and open a PR. Merge only when Kyler says so in the chat.
+- **Writing README and website text:** short and plain, for a player who wants to download, install and play. Keep
+  each sentence to one idea (most under about 20 words), and a paragraph or FAQ answer to one to three sentences. Write
+  menu paths as arrow chains and bold on-screen labels exactly as in game. Say each thing once. Leave out internals,
+  filler and history. Check every flow against the code. Reread as a new player before publishing.
 - <Anything repo-specific: fresh games only, a release process, etc.>
 
 ## Website
