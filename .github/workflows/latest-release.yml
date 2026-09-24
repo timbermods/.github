@@ -69,7 +69,8 @@ jobs:
           TAG: ${{ github.event.release.tag_name }}
         run: |
           echo ".timbermods-ci/" >> .git/info/exclude
-          args=(--repo "$GITHUB_REPOSITORY" --tag "$TAG" --site-dir "${{ inputs.site-dir }}" --site-url "${{ inputs.site-url }}" \
-                --install-page "${{ inputs.install-page }}" --asset-pattern '${{ inputs.asset-pattern }}' --test-command '${{ inputs.test-command }}')
+          # --name=value throughout: a value may start with "-" (a zip pattern such as -mod\.zip$)
+          args=("--repo=$GITHUB_REPOSITORY" "--tag=$TAG" "--site-dir=${{ inputs.site-dir }}" "--site-url=${{ inputs.site-url }}" \
+                "--install-page=${{ inputs.install-page }}" '--asset-pattern=${{ inputs.asset-pattern }}' '--test-command=${{ inputs.test-command }}')
           if [ "${{ inputs.dry-run }}" = "true" ]; then args+=(--dry-run); fi
           python3 .timbermods-ci/scripts/latest_release.py "${args[@]}"
