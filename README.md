@@ -57,3 +57,6 @@ buttons and this profile's version badges already follow the Latest release on t
 To see what it would do without changing anything, run a mod repo's **Latest release** workflow by hand (Actions →
 Latest release → Run workflow); its dry run is on by default.
 
+GitHub runs a release's workflow from the commit its tag points to, so a release tagged on a commit from before a
+repo had this workflow won't trigger it. For such a release, run the workflow by hand with **dry-run** unticked.
+
