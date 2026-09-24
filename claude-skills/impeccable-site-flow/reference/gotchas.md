@@ -46,6 +46,9 @@
 - **The hub's `data/releases.json` is written by a bot** (hourly). Never edit it; merge origin/main before a PR.
 - **MixedStorage publishes from gh-pages.** After merging, run `deploy-site.ps1` from a checkout of origin/main (it
   publishes the working tree's `site/`).
+- **GitHub profile images come from `raw.githubusercontent.com`,** which caches by path for about 5 minutes and can
+  ignore `?v=` queries, so a changed image can keep showing its old version. Link a changed image by the commit that
+  holds it (`raw.githubusercontent.com/<org>/<repo>/<commit>/path`): a new address that no cache holds.
 - **Pages builds take about a minute.** Verify with `gh api repos/<o>/<r>/pages/builds/latest` plus a `curl` grep.
 - **HungryPathing's site design records live in `docs/`** (`.impeccable/config.json` `projectRoots: ["docs"]`), apart
   from the mod's own root DESIGN.md.
