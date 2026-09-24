@@ -5,7 +5,7 @@ description: Kyler's proven Impeccable website flow for mod/project sites (used 
 
 # Impeccable site flow
 
-This is the flow that produced the timbermods sites: MultiColony "River Station Signage", MixedStorage's apothecary
+This is the flow that produced the timbermods sites: Timber Together "River Station Signage", MixedStorage's apothecary
 cabinet, the Stability Fork's log round and saw, Late Game Performance's "Pit Crew", Optimized Local Housing's seating
 plan, Hungry Pathing's enamel yard signs, Persistent Work Areas' drafting plan, The Tipsy Tail's poolside bar and the
 hub's collector's binder. Two modes:
@@ -28,7 +28,7 @@ Read it first, and follow it wherever it's more specific than this skill.
 - **No official Timberborn logos or key art.** Game item icons are allowed where a site already uses them. Keep every
   credit (BeaverBuddies by thomaswp, GPL, and similar).
 - **`release.js` is shared across most timbermods sites** and byte-identical there. Replace it, never edit it.
-  MultiColony runs its own variant; Persistent Work Areas and the hub use their own `site.js`. Each repo's CLAUDE.md
+  Timber Together runs its own variant; Persistent Work Areas and the hub use their own `site.js`. Each repo's CLAUDE.md
   says which applies.
 - **Tooltips in Mod Settings don't wrap** (≤112 chars per line). That only matters if site copy is reused in game.
 - **Once a plan is agreed, keep going to the end** (build → review → fix → PR → publish) without pausing. Ask only real

@@ -28,7 +28,7 @@ OUT = os.path.dirname(os.path.abspath(__file__))
 # card id, accent, category pill (the catalog's order and wording)
 CARDS = [
     ("beaverbuddies-stability-fork", "#b8322a", "Multiplayer"),
-    ("beaverbuddies-multicolony", "#1a6a77", "Multiplayer"),
+    ("timber-together", "#1a6a77", "Multiplayer"),
     ("late-game-performance", "#5b3fd0", "Performance"),
     ("optimized-local-housing", "#2d5f9a", "Housing"),
     ("hungry-pathing", "#1d4a86", "Beaver needs"),

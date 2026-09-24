@@ -5,7 +5,7 @@ detail: design rules, test, preview, publish, and the release-update checklist.
 
 | Repo (timbermods/…) | Site dir | Look | Site test | Publish |
 |---|---|---|---|---|
-| BeaverBuddies-MultiColony | docs/ | River Station Signage (enamel plates on timber posts; amber = colony 1, teal = colony 2) | none; CLAUDE.md gives `node --check` and a link check | Pages main:/docs |
+| TimberTogether | docs/ | River Station Signage (enamel plates on timber posts; amber = colony 1, teal = colony 2) | none; CLAUDE.md gives `node --check` and a link check | Pages main:/docs |
 | BeaverBuddies-Stability-Fork | docs/ | Blued steel and pine; hero is one shared colony with two players' cursors and an In sync panel (dark only) | none; CLAUDE.md gives grep checks | Pages main:/docs |
 | MixedStorage | docs/ | Walnut apothecary drawer cabinet | `node tests/test-site.mjs` | Pages main:/docs |
 | LateGamePerformance | docs/ | Pit Crew (pit board, crew stations, timing tower) | none (no CI; mod tests run locally) | Pages main:/docs |
@@ -24,9 +24,9 @@ detail: design rules, test, preview, publish, and the release-update checklist.
   many pre-releases). Wording stays manual. Dry run: Actions → Latest release → Run workflow.
 
 - **`release.js`:** byte-identical on the Stability Fork, MixedStorage, Late Game Performance, Optimized Local Housing,
-  Hungry Pathing and The Tipsy Tail. Replace it, never edit it. MultiColony has its own variant (it fills versions from
+  Hungry Pathing and The Tipsy Tail. Replace it, never edit it. Timber Together has its own variant (it fills versions from
   the newest published pre-release). Persistent Work Areas and the hub use their own `site.js`.
-- **Mod accents used on the hub:** Stability Fork #b8322a, MultiColony #1a6a77, Late Game Performance #5b3fd0,
+- **Mod accents used on the hub:** Stability Fork #b8322a, Timber Together #1a6a77, Late Game Performance #5b3fd0,
   Optimized Local Housing #2d5f9a, Hungry Pathing #1d4a86, MixedStorage #8a6a2c, Persistent Work Areas #8a6512,
   The Tipsy Tail #1a6773.
 - **Mod pictures on the hub:** when a site's look changes, recapture its picture with `python scripts/card-art.py <id>`
