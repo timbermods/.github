@@ -43,6 +43,9 @@ Read it first, and follow it wherever it's more specific than this skill.
 
   Developer detail goes in a DEVELOPING.md or the changelog, not the README. Timber Together's copy pass (PR #22) is
   the model.
+- **No smoke, smear, dust, sheen or glare textures** over content, boards or pictures (Kyler, 2026-09-24: Hungry
+  Pathing's chalk-smeared slate "looks like smoke", the profile's sheen "looks awful"). Surfaces are flat colours or
+  quiet grain; a dark-mode surface must be dark (no cream panels on a night page).
 - **Tooltips in Mod Settings don't wrap** (≤112 chars per line). That only matters if site copy is reused in game.
 - **Once a plan is agreed, keep going to the end** (build → review → fix → PR → publish) without pausing. Ask only real
   product decisions. Merging needs Kyler's say-so in chat, because the auto-mode classifier blocks `gh pr merge`
