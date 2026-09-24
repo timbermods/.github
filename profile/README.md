@@ -83,7 +83,7 @@ Storage, planting and a new building.
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://timbermods.github.io/MixedStorage/"><img src="https://raw.githubusercontent.com/timbermods/.github/b1148751cbbecf82b18e23c1e329e83bde0f1ed7/profile/cards/mixedstorage.png" alt="A walnut drawer cabinet with brass-labelled drawers of goods" width="100%"></a>
+<a href="https://timbermods.github.io/MixedStorage/"><img src="https://raw.githubusercontent.com/timbermods/.github/e6af04af5a783f769eaa4d13aaa6878e3c7dee5d/profile/cards/mixedstorage.png" alt="The mod's Storage Allocation panel: a warehouse split 50% carrots, 50% gears" width="100%"></a>
 <h3><a href="https://timbermods.github.io/MixedStorage/">MixedStorage</a></h3>
 <p><b>Several goods in one warehouse.</b><br>Divide a warehouse or pile by percentage, say 50% carrots and 50% gears. A compact panel shows exactly what is stored.</p>
 <p><img src="https://img.shields.io/badge/Storage-8a6a2c?style=flat-square" alt="Category: Storage"> <img src="https://img.shields.io/github/v/release/timbermods/MixedStorage?label=latest&labelColor=1f2124&color=8a6a2c&style=flat-square" alt="Latest release"></p>
