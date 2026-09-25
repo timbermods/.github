@@ -31,7 +31,6 @@ Co-op through BeaverBuddies. Only one BeaverBuddies can run at a time: pick the 
 <h3><a href="https://timbermods.github.io/TimberTogether/">Timber Together</a></h3>
 <p><b>Build apart. Thrive together.</b><br>Built on <a href="https://github.com/thomaswp/BeaverBuddies">BeaverBuddies</a> by thomaswp, through the Stability Fork. Each player runs a colony of their own, with its own beavers, stock, science and working hours, on one shared map. The colonies' roads never join: they trade only at Trading Posts. Or share one colony, as in the fork.</p>
 <p><img src="https://img.shields.io/badge/Multiplayer-1a6a77?style=flat-square" alt="Category: Multiplayer"> <img src="https://img.shields.io/github/v/release/timbermods/TimberTogether?label=latest&labelColor=1f2124&color=1a6a77&style=flat-square&include_prereleases" alt="Latest release"> <img src="https://img.shields.io/badge/Beta-b07a12?style=flat-square" alt="Beta"></p>
-<p><sub>Beta, the release candidate: play on a copy of your save.</sub></p>
 <p><sub><b>Requires</b> Harmony, Mod Settings</sub></p>
 <p><a href="https://timbermods.github.io/TimberTogether/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/TimberTogether">GitHub</a> &nbsp;·&nbsp; <a href="https://github.com/timbermods/TimberTogether/releases"><b>Download</b></a></p>
 </td>
